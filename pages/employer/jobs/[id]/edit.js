@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import EmployerNavbar from "../../../../components/EmployerNavbar";
+import EmployerNavbar from "@/components/EmployerNavbar";
 import styles from "../../../../styles/EditJob.module.css";
 
 export default function EditJob() {

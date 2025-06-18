@@ -1,5 +1,5 @@
-import EmployerNavbar from "../../components/EmployerNavbar";
-import ChatBot from "../../components/ChatBot";
+import EmployerNavbar from "@/components/EmployerNavbar";
+import ChatBot from "@/components/ChatBot";
 import styles from "../../styles/Dashboard.module.css";
 
 export default function EmployerDashboard() {

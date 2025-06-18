@@ -1,4 +1,4 @@
-import EmployerNavbar from "../../components/EmployerNavbar";
+import EmployerNavbar from "@/components/EmployerNavbar";
 import styles from "../../styles/Profile.module.css";
 
 export default function EmployerProfile() {

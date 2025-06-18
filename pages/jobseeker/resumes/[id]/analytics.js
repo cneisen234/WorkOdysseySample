@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import JobSeekerNavbar from "../../../../components/JobSeekerNavbar";
+import JobSeekerNavbar from "@/components/JobSeekerNavbar";
 import styles from "../../../../styles/ResumeAnalytics.module.css";
 
 export default function ResumeAnalytics() {
