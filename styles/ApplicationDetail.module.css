@@ -1,0 +1,30 @@
+.container {
+    padding: 2rem;
+}
+
+.applicationDetail {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.applicationDetail h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.applicationDetail h3 {
+    color: #333;
+    margin-top: 1.5rem;
+}
+
+.applicationDetail ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.applicationDetail li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}

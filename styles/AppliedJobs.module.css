@@ -1,0 +1,84 @@
+.container {
+    padding: 2rem;
+}
+
+.filterOptions {
+    margin-bottom: 1rem;
+}
+
+.filterSelect {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.applicationsList {
+    display: grid;
+    gap: 1rem;
+}
+
+.applicationCard {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.applicationCard h3 {
+    margin: 0 0 1rem 0;
+    color: #333;
+}
+
+.applicationCard p {
+    margin: 0.25rem 0;
+    color: #666;
+}
+
+.applicationActions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.actionBtn {
+    background: #0070f3;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.actionBtn:hover {
+    background: #0051a5;
+}
+
+.status {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.status.under_review {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status.interview_scheduled {
+    background: #d1ecf1;
+    color: #0c5460;
+}
+
+.status.rejected {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.status.offered {
+    background: #d4edda;
+    color: #155724;
+}

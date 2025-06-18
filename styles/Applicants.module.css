@@ -1,0 +1,63 @@
+.container {
+    padding: 2rem;
+}
+
+.applicantsList {
+    display: grid;
+    gap: 1rem;
+}
+
+.applicantCard {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rank {
+    background: #0070f3;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.applicantInfo {
+    flex: 1;
+}
+
+.applicantInfo h3 {
+    margin: 0 0 0.5rem 0;
+    color: #333;
+}
+
+.applicantInfo p {
+    margin: 0.25rem 0;
+    color: #666;
+}
+
+.actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.actionBtn {
+    background: #0070f3;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.actionBtn:hover {
+    background: #0051a5;
+}

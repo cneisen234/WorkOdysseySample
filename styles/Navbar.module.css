@@ -1,0 +1,43 @@
+.navbar {
+    background: #333;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBrand a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navLinks {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navLinks a {
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.2s;
+}
+
+.navLinks a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.logoutBtn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.logoutBtn:hover {
+    background: #c82333;
+}

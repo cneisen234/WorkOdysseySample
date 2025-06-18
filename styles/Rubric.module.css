@@ -1,0 +1,82 @@
+.container {
+    padding: 2rem;
+}
+
+.rubricForm {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.rubricForm h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.criteriaList {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.criterion {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.criterion label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.criterion textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+.ratingGroup {
+    margin-bottom: 0.5rem;
+}
+
+.ratingGroup select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.overallScore {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.score {
+    color: #28a745;
+    font-size: 1.5rem;
+}
+
+.saveBtn {
+    background: #0070f3;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.saveBtn:hover {
+    background: #0051a5;
+}
